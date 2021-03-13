@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+   
+ <body bgcolor="lightblue">
+        
+<b>Online Registration Form</b>
+        <br/><br/>
+           
+ <form action="success.html">
+               
+ <table>
+                    
+	<tr>
+                       
+ 	<td>Username*</td>
+                       
+	 <td><input type="text" placeholder="Enter User Name" name="username" required="required" pattern="[A-Za-z ]+"/></td>
+                    
+	</tr>
+                    
+                   
+	<tr>
+                       
+ 	<td>Password*</td>
+                        
+	<td><input type="password" name="password" required="required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&*]).{7,}"></td>
+                    
+	</tr>
+                    
+                  
+  	<tr/>
+                        
+	<td>Address</td>
+                       
+ 	<td><textarea name="address" rows="8" cols="40"></textarea>
+	</td>
+       
+	 </tr>
+                    
+                 
+	 <tr>
+                        
+	<td>Country</td>
+                
+        	<td><input type="text" name="country" autocomplete="on" list="countries" />
+                  
+          	<datalist name="countries" id="countries">
+                               
+ 	<option value="India"></option>
+                                
+	<option value="America"></option>
+                                                      
+	</datalist>
+                       
+ 	</td>
+                    
+	</tr>
+                    
+                   
+ 	<tr>
+                      
+  	<td>Gender*</td>
+                      
+  	<td> <input type="radio" name="gender" required="required" />Male<br/>
+                           
+ 	<input type="radio" name="gender" required="required" />Female
+    </td>
+                  
+ 	 </tr>
+                    
+                  
+  	<tr>
+                        
+	<td>Languages known*</td>
+                     
+   	<td>
+ <input type="checkbox" name="lang"/>Hindi<br/>
+                           
+ 	<input type="checkbox" name="lang"/>English<br/>
+                          
+ 	 <input type="checkbox" name="lang"/>Tamil
+                        </td>
+             
+      	 </tr>
+                    
+                 
+   	<tr>
+                      
+  	<td><input type="image" name="submit" src="/images/submit.png"></td>
+                     
+   <td><input type="reset" name="reset" value="Reset" /></td>
+                    
+</tr>
+</table>
+            
+</form>
+   
+ </body>
+
+</html>
