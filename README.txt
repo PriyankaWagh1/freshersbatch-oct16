@@ -1,4 +1,4 @@
 Assignments contain 
 - A example using css
-- Registration from having reset option
+- Registration from to fill in personal details having reset option.
 - Palindrome checker.
