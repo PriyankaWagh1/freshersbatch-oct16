@@ -1,4 +1,4 @@
-Assignments contain 
+Assignments folder contain :
 - A example using css
 - Registration from having reset option
 - Palindrome checker.
